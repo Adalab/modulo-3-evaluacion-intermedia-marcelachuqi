@@ -13,8 +13,7 @@ code {
 }
 
 .divClass {
-  background-color: lightblue;
-
+  background-color: lightgrey;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -25,4 +24,8 @@ code {
   height: 50px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: medium;
+}
+
+.pokeType {
+  text-decoration: none;
 }
