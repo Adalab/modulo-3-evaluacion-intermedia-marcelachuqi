@@ -5,7 +5,7 @@ const PokeList = (props) => {
   const PokeItems = props.list.map((item) => {
     return (
       <>
-        <Pokemon name={item.name} src={item.url} />
+        <Pokemon name={item.name} src={item.url} type={item.types} />
       </>
     );
   });

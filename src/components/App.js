@@ -6,7 +6,7 @@ import "../stylesheets/style.css";
 const App = () => {
   return (
     <>
-      <h1>Pokemons</h1>
+      <h1>Mi lista de Pokemones</h1>
       <PokeList list={pokeData} />
     </>
   );
